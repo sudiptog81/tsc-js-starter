@@ -1,9 +1,10 @@
 {
   "name": "tsjs",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "license": "MIT",
   "scripts": {
+    "start": "node .",
     "dev": "cd src && tsc --allowJs --checkJs -w"
   },
   "devDependencies": {
